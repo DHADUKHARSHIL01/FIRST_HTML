@@ -14,19 +14,6 @@
       crossorigin="anonymous"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css"
-    />
-
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
 
@@ -40,7 +27,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="MAIN.css" />
-    <link rel="stylesheet" href="women.html" />
 
     <!-- Bootstrap JS -->
     <script
@@ -56,7 +42,7 @@
           slideWidth: 1500,
           slideMargin: 50,
           ticker: true,
-          speed: 20000,
+          speed: 15000,
         });
       });
     </script>
@@ -85,7 +71,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-lg-0 first-ul">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -184,37 +170,41 @@
 
     <!-- slidebar Carousel -->
     <section>
-      <div id="carouselExample" class="carousel slide pt-5">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide pt-5"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="2500">
             <img
               src="SLIDER IMG/J_and_J_web_2f5c8e37f5.avif"
               class="d-block w-100 img-fluid"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2500">
             <img
               src="SLIDER IMG/Titan_web_0e501cd405.avif"
               class="d-block w-100 img-fluid"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2500">
             <img
               src="SLIDER IMG/static_web_Adidas_puma_and_more_fc269fe01d.avif"
               class="d-block w-100 img-fluid"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2500">
             <img
               src="SLIDER IMG/ss24_strapi_web_a966c2c903.avif"
               class="d-block w-100 img-fluid"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2500">
             <img
               src="SLIDER IMG/ss24_women_strapi_web_cea5dc2f27.avif  "
               class="d-block w-100 img-fluid"
@@ -373,9 +363,39 @@
       </div>
     </section>
 
+    <!-- home stop  -->
+
+    <section class="container">
+      <div class="container text-center pt-5 pb-5">
+        <h2>
+          <strong>
+            <span style="color: #171717">HOME</span>
+            <span style="color: #a3a3a3">STOP</span>
+          </strong>
+        </h2>
+      </div>
+
+      <div class="bxslider">
+        <div><img src="WOMEN IMG/Bedding_83352347fc.avif" class="w-100" /></div>
+        <div>
+          <img src="WOMEN IMG/Dining_01dcdf43c6.avif" class="w-100" />
+        </div>
+        <div><img src="WOMEN IMG/Living_d9043ab8a8.avif" class="w-100" /></div>
+        <div>
+          <img src="WOMEN IMG/Kitchen_1b6190b891.avif" class="w-100" />
+        </div>
+        <div>
+          <img src="WOMEN IMG/Appliances_44ab2540ba.avif" class="w-100" />
+        </div>
+        <div>
+          <img src="WOMEN IMG/Bath_bf7d611cdc.avif" class="w-100" />
+        </div>
+      </div>
+    </section>
+
     <!-- Man Section  -->
     <section id="MEN">
-      <div class="container text-center pt-5">
+      <div class="container text-center">
         <h2>
           <strong>
             <span style="color: #a3a3a3">Popular</span>
