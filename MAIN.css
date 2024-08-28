@@ -1,34 +1,35 @@
-.logo{
-    margin-left: 25% !important;
-
-}
-.first-ul{
-    margin-left: 25% !important;
+.logo {
+  margin-left: 25% !important;
 }
 
-li{
-    margin-right: 3% !important;
+.first-ul {
+  margin-left: 25% !important;
 }
-li img{
-    height: 524px !important;
-}
-.logo-img{
-    height: 60px !important;
-    width: 60px;    
-}
-/*  */
 
-  .box {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 500px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    float: left;
-    
-  }
-  .box:hover {
-    box-shadow: 0 0 15px rgba(33,33,33,.2); 
-  }
+li {
+  margin-right: 3% !important;
+}
+
+li img {
+  height: 524px !important;
+}
+
+.logo-img {
+  height: 60px !important;
+  width: 60px;
+}
+
+/* WATCH PAGE */
+
+.box {
+  transition: box-shadow 0.3s;
+  width: 300px;
+  height: 460px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.box:hover {
+  box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
+  border: 1px solid #ccc;
+}
